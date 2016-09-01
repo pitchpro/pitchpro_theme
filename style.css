@@ -1,0 +1,17 @@
+/*
+Theme Name:     Pitch.PRO
+Theme URI:      https://www.pitch.pro/
+Description:
+Author:         Timothy Wood @codearachnid
+Author URI:     http://www.imaginesimplicity.com
+Template:       canvas
+Version:        1.0.0
+*/
+
+@import url("../canvas/style.css");
+
+@media only screen and (min-width: 768px) {
+    #menu-app-header{
+        float:right;
+    }
+}
