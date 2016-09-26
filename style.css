@@ -14,4 +14,14 @@ Version:        1.0.0
     #menu-app-header{
         float:right;
     }
+    .menu-app-header-container ul {
+        list-style: none;
+    }
+    .menu-app-header-container ul li{
+        float:left;
+        padding:0 10px;
+    }
+    .menu-app-header-container ul li a{
+        color:black;
+    }
 }
