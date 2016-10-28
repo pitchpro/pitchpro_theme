@@ -11,17 +11,59 @@ Version:        1.0.0
 @import url("../canvas/style.css");
 
 @media only screen and (min-width: 768px) {
+    #menu-site-header,
     #menu-app-header{
         float:right;
     }
+    .menu-site-header-container ul,
     .menu-app-header-container ul {
         list-style: none;
     }
+    .menu-site-header-container ul li,
     .menu-app-header-container ul li{
         float:left;
         padding:0 10px;
+        list-style:none;
     }
+    .menu-site-header-container ul li a,
     .menu-app-header-container ul li a{
         color:black;
     }
+}
+
+ul.nav li.current_page_item a, ul.nav li.current_page_parent a, ul.nav li.current-menu-ancestor a, ul.nav li.current-cat a, ul.nav li.current-menu-item a{
+    background:#25a249;
+    color:white;
+}
+.entry table tbody th{
+    background: #f0f0f0;
+    font-weight: normal;
+}
+
+body.home article.page header{
+    display: none;
+}
+
+#sidebar li.widget{
+    list-style:none;
+}
+.pitch-preview-warning{
+    background:red;
+    color:white;
+    padding:20px;
+}
+.pitch-preview-to{
+    background:#f0f0f0;
+    font-color:black;
+    padding:20px 20px 0;
+}
+.pitch-preview-subject{
+    background:#f0f0f0;
+    font-color:black;
+    padding:0 20px 20px;
+}
+.pitch-preview{
+    border:1px solid #eee;
+    margin:0 0 20px;
+    padding:20px;
 }
